@@ -1,29 +1,100 @@
-# 💫 About Me:
-🔭 I’m currently working on honing my skills to be the best web developer out there<br>👯 I’m looking to collaborate on any major and minor project to gain experience<br>🤝 I’m looking for help with learn new things<br>🌱 I’m currently learning REACT and other frameworks like BOOTSRAP and Tailwind CSS<br>💬 Ask me about anything<br>⚡ Fun fact coding is hard
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0E75B6&height=280&section=header&text=Mushfiqur%20Rahman&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Engineering%20The%20Future&descSize=20&descAlignY=60" width="100%" />
+</div>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Software+Engineer;Full+Stack+Developer+(MERN+%2B+Next.js);Open+Source+Contributor;Tech+Content+Creator" />
+</p>
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/profile.php?id=100004513156118) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/mushfiqur-rahman-7bb295289/) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/mushfiq00) 
+<div align="center">
+  <a href="https://www.linkedin.com/in/mushfiqur-rahman-7bb295289/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=100004513156118" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+  </a>
+  <a href="https://www.youtube.com/@illusion549" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+  </a>
+  <a href="https://twitch.tv/mushfiq00" target="_blank">
+    <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"/>
+  </a>
+</div>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=mrmushii&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=mrmushii&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=mrmushii&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<br/>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<div align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" height="140" />
+</div>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=mrmushii&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<h2 align="center">⚡ Character Stats</h2>
+<div align="center">
 
----
-[![](https://visitcount.itsvg.in/api?id=mrmushii&icon=2&color=6)](https://visitcount.itsvg.in)
+| | |
+|:---:|:---|
+| 🔭 | **Current Quest:** Building scalable systems with **Next.js & Docker**. |
+| 👯 | **Party:** Open to collaborating on **Open Source** projects. |
+| 🎓 | **Guild:** CSE Student @ **IIUC** (Lvl 2027). |
+| ⚡ | **Perk:** Can code for 12 hours on coffee alone. |
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrmushii/mrmushii/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrmushii/mrmushii/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/mrmushii/mrmushii/output/github-snake.svg" />
-</picture>
+</div>
+
+<br/>
+
+<h2 align="center">🛠️ Inventory</h2>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,mongodb,redux,python,cpp,c,js,html,css,tailwind,bootstrap,firebase,mysql,git,github,vscode,docker&perline=10&theme=dark" />
+</p>
+
+<br/>
+
+<h2 align="center">🏆 Hall of Fame</h2>
+<div align="center">
+  <!-- Static badges using Shields.io -->
+  <img src="https://img.shields.io/badge/Achievement-OpenSource-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Top_Contributor-GitHub-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-100%2B-yellow?style=for-the-badge" />
+</div>
+
+<br/>
+
+<h2 align="center">🏙️ The Code City</h2>
+<div align="center">
+  <img src="https://github.com/mrmushii/mrmushii/blob/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+</div>
+
+<br/>
+
+<h2 align="center">📊 Mission Report</h2>
+<div align="center">
+  <!-- Static badges using Shields.io -->
+  <img src="https://img.shields.io/badge/Commits-500+-blue?style=for-the-badge" height="170" />
+  <img src="https://img.shields.io/badge/PRs-Merged-success?style=for-the-badge" height="170" />
+  <img src="https://img.shields.io/badge/Stars-300-yellow?style=for-the-badge" height="170" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Top_Languages-JS%2C+Python%2C+C++-blue?style=for-the-badge" height="170"/>
+</div>
+
+<br/>
+
+<h2 align="center">📈 Live Frequency</h2>
+<div align="center">
+  <img src="https://img.shields.io/badge/Daily_Activity-Active-brightgreen?style=for-the-badge" />
+</div>
+
+<br/>
+
+<h2 align="center">🐍 Contribution Grid</h2>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/mrmushii/mrmushii/output/github-snake-dark.svg" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0E75B6&height=100&section=footer" width="100%" />
+</div>
