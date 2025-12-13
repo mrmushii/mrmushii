@@ -81,6 +81,17 @@
 
 <br/>
 
+<h2 align="center">📊 Mission Report</h2>
+<div align="center">
+  <a href="https://github.com/mrmushii">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mrmushii&theme=dark&hide_border=true&stroke=0E75B6&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakNum=ffffff" height="180" alt="streak"/>
+  </a>
+  <a href="https://github.com/mrmushii">
+    <img src="https://github-readme-stats.vercel.app/api?username=mrmushii&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6" height="180" alt="stats"/>
+  </a>
+</div>
+<br/>
+
 <h2 align="center">📈 Live Frequency</h2>
 <div align="center">
   <img src="https://img.shields.io/badge/Daily_Activity-Active-brightgreen?style=for-the-badge" />
