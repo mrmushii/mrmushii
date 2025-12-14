@@ -57,7 +57,7 @@
 
 <h2 align="center">🏙️ The Code City</h2>
 <div align="center">
-  <img src="https://github.com/mrmushii/mrmushii/blob/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/mrmushii/mrmushii/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
 </div>
 
 <br/>
