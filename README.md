@@ -76,7 +76,19 @@
 
 <h2 align="center">🧠 Top Technologies</h2>
 <div align="center">
-  <img src="https://github-readme-stats-phi-one-77.vercel.app/api/top-langs/?username=mrmushii&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6&text_color=ffffff&hide=jupyter%20notebook" height="170" alt="languages"/>
+  <img src="https://github-readme-stats-phi-one-77.vercel.app/api/top-langs/?username=mrmushii&layout=donut&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6&text_color=ffffff&hide=jupyter%20notebook" height="250" alt="languages"/>
+</div>
+
+<br/>
+
+<h2 align="center">🏆 Featured Quests (Pinned)</h2>
+<div align="center">
+  <a href="https://github.com/mrmushii/mrmushii">
+    <img src="https://github-readme-stats-phi-one-77.vercel.app/api/pin/?username=mrmushii&repo=mrmushii&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6&text_color=ffffff" />
+  </a>
+  <a href="https://github.com/mrmushii">
+    <img src="https://github-readme-stats-phi-one-77.vercel.app/api/pin/?username=mrmushii&repo=github-readme-stats&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6&text_color=ffffff" />
+  </a>
 </div>
 
 <br/>
