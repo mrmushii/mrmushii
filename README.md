@@ -48,12 +48,9 @@
 
 <br/>
 
-<h2 align="center">🏆 Hall of Fame</h2>
+<h2 align="center">👀 Profile Visitors</h2>
 <div align="center">
-  <!-- Static badges using Shields.io -->
-  <img src="https://img.shields.io/badge/Achievement-OpenSource-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Top_Contributor-GitHub-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Projects-100%2B-yellow?style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=mrmushii&label=Profile%20Views&color=0E75B6&style=for-the-badge" alt="mrmushii" />
 </div>
 
 <br/>
@@ -65,18 +62,9 @@
 
 <br/>
 
-<h2 align="center">📊 Mission Report</h2>
+<h2 align="center">🧠 Top Technologies</h2>
 <div align="center">
-  <!-- Static badges using Shields.io -->
-  <img src="https://img.shields.io/badge/Commits-500+-blue?style=for-the-badge" height="170" />
-  <img src="https://img.shields.io/badge/PRs-Merged-success?style=for-the-badge" height="170" />
-  <img src="https://img.shields.io/badge/Stars-300-yellow?style=for-the-badge" height="170" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Top_Languages-JS%2C+Python%2C+C++-blue?style=for-the-badge" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrmushii&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6&hide=jupyter%20notebook" height="170" alt="languages"/>
 </div>
 
 <br/>
@@ -87,14 +75,16 @@
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=mrmushii&theme=dark&hide_border=true&stroke=0E75B6&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakNum=ffffff" height="180" alt="streak"/>
   </a>
   <a href="https://github.com/mrmushii">
-    <img src="https://github-readme-stats.vercel.app/api?username=mrmushii&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6" height="180" alt="stats"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=mrmushii&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6&count_private=true" height="180" alt="stats"/>
   </a>
 </div>
 <br/>
 
 <h2 align="center">📈 Live Frequency</h2>
 <div align="center">
-  <img src="https://img.shields.io/badge/Daily_Activity-Active-brightgreen?style=for-the-badge" />
+  <a href="https://github.com/mrmushii">
+    <img src="https://img.shields.io/github/last-commit/mrmushii/mrmushii?color=38BDF8&style=for-the-badge&label=Last%20Commit" />
+  </a>
 </div>
 
 <br/>
