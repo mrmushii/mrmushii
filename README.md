@@ -62,22 +62,23 @@
 
 <br/>
 
-<h2 align="center">🧠 Top Technologies</h2>
+<h2 align="center">📊 Mission Report</h2>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrmushii&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6&hide=jupyter%20notebook" height="170" alt="languages"/>
+  <a href="https://github.com/mrmushii">
+    <img src="https://github-readme-stats-phi-one-77.vercel.app/api?username=mrmushii&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6&text_color=ffffff&include_all_commits=true&count_private=true&rank_icon=github" height="180" alt="stats"/>
+  </a>
+  <a href="https://github.com/mrmushii">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mrmushii&theme=dark&hide_border=true&stroke=0E75B6&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakNum=ffffff" height="180" alt="streak"/>
+  </a>
 </div>
 
 <br/>
 
-<h2 align="center">📊 Mission Report</h2>
+<h2 align="center">🧠 Top Technologies</h2>
 <div align="center">
-  <a href="https://github.com/mrmushii">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mrmushii&theme=dark&hide_border=true&stroke=0E75B6&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakNum=ffffff" height="180" alt="streak"/>
-  </a>
-  <a href="https://github.com/mrmushii">
-    <img src="https://github-readme-stats.vercel.app/api?username=mrmushii&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6&count_private=true" height="180" alt="stats"/>
-  </a>
+  <img src="https://github-readme-stats-phi-one-77.vercel.app/api/top-langs/?username=mrmushii&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0E75B6&text_color=ffffff&hide=jupyter%20notebook" height="170" alt="languages"/>
 </div>
+
 <br/>
 
 <h2 align="center">📈 Live Frequency</h2>
