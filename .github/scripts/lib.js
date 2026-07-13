@@ -41,9 +41,69 @@ function localHour(iso) {
   return m ? Number(m[1]) : 0;
 }
 
+const HAS_TOKEN = Boolean(process.env.GITHUB_TOKEN);
+
+async function graphql(query, variables) {
+  const res = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ query, variables }),
+  });
+  const json = await res.json();
+  if (json.errors) throw new Error(`graphql: ${json.errors[0].message}`);
+  return json.data;
+}
+
+/**
+ * GitHub's own contribution calendar — the exact data behind the green squares,
+ * including private work when the token carries `read:user` AND the account has
+ * "Include private contributions on my profile" enabled.
+ *
+ * This is the only correct source for a streak. Counting commits off the REST
+ * API can't see private repos and misses PRs, reviews and issues entirely.
+ */
+async function fetchCalendar() {
+  const to = new Date();
+  const from = new Date(to);
+  from.setUTCFullYear(from.getUTCFullYear() - 1);
+
+  const data = await graphql(
+    `query($user: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $user) {
+        contributionsCollection(from: $from, to: $to) {
+          contributionCalendar {
+            totalContributions
+            weeks { contributionDays { date contributionCount } }
+          }
+        }
+      }
+    }`,
+    { user: USER, from: from.toISOString(), to: to.toISOString() }
+  );
+
+  const cal = data.user.contributionsCollection.contributionCalendar;
+  const perDay = new Map();
+  for (const w of cal.weeks) {
+    for (const d of w.contributionDays) {
+      if (d.contributionCount > 0) perDay.set(d.date, d.contributionCount);
+    }
+  }
+  return { total: cal.totalContributions, perDay };
+}
+
+/**
+ * Repos for language stats and commit scanning. With a token we ask for the
+ * authenticated user's repos so private ones are included; without one we can
+ * only see public.
+ */
 async function fetchProfile() {
   const user = await gh(`/users/${USER}`);
-  const repos = await gh(`/users/${USER}/repos?per_page=100&sort=pushed`);
+  const repos = HAS_TOKEN
+    ? await gh(`/user/repos?per_page=100&affiliation=owner&visibility=all&sort=pushed`)
+    : await gh(`/users/${USER}/repos?per_page=100&sort=pushed`);
   const own = repos.filter((r) => !r.fork);
 
   const langCount = {};
@@ -56,16 +116,22 @@ async function fetchProfile() {
   return {
     user,
     repos: own,
+    privateCount: own.filter((r) => r.private).length,
     stars: own.reduce((n, r) => n + r.stargazers_count, 0),
     followers: user.followers,
     langCount,
   };
 }
 
-/** Walk recent repos and collect every commit authored by USER. */
+/**
+ * Every commit authored by USER across recent repos, public and private.
+ *
+ * Private repos contribute their TIMESTAMPS only. Names and commit messages of
+ * private work are never carried out of this function — they'd be published to
+ * a public README, which would leak exactly what "private" is supposed to mean.
+ */
 async function fetchCommits(repos) {
   const targets = repos.slice(0, REPO_SCAN_LIMIT);
-  const commits = [];
 
   const results = await Promise.all(
     targets.map(async (r) => {
@@ -82,14 +148,17 @@ async function fetchCommits(repos) {
     })
   );
 
+  const commits = [];
   for (let i = 0; i < targets.length; i++) {
+    const isPrivate = Boolean(targets[i].private);
     for (const c of results[i]) {
       const iso = c.commit?.author?.date;
       if (!iso) continue;
       commits.push({
-        repo: targets[i].name,
         iso,
-        message: c.commit.message.split("\n")[0],
+        private: isPrivate,
+        repo: isPrivate ? "private repo" : targets[i].name,
+        message: isPrivate ? "—" : c.commit.message.split("\n")[0],
       });
     }
   }
@@ -98,17 +167,19 @@ async function fetchCommits(repos) {
   return commits;
 }
 
-/** Streaks, totals, and the hour/weekday rhythm — all from real commits. */
-function analyze(commits) {
-  const perDay = new Map();
+/**
+ * Streaks and totals come from the contribution calendar (accurate, includes
+ * private work). The hour/weekday rhythm comes from commit timestamps, since
+ * the calendar is daily-resolution only.
+ */
+function analyze(commits, calendar) {
+  const perDay = calendar.perDay;
   const hours = new Array(24).fill(0);
   const dows = new Array(7).fill(0);
 
   for (const c of commits) {
-    const d = new Date(c.iso);
-    perDay.set(dayKey(d), (perDay.get(dayKey(d)) || 0) + 1);
     hours[localHour(c.iso)]++;
-    dows[d.getUTCDay()]++;
+    dows[new Date(c.iso).getUTCDay()]++;
   }
 
   // Current streak: walk backwards from today. Today not yet committed doesn't
@@ -140,7 +211,7 @@ function analyze(commits) {
   const busiestDay = DOW[dows.indexOf(Math.max(...dows))];
 
   return {
-    total: commits.length,
+    total: calendar.total, // contributions incl. private, not just public commits
     activeDays: perDay.size,
     current,
     longest,
@@ -149,6 +220,7 @@ function analyze(commits) {
     perDay,
     busiestHour,
     busiestDay,
+    scanned: commits.length, // commits behind the rhythm chart
   };
 }
 
@@ -193,4 +265,16 @@ const svg = (w, h, inner) =>
 </svg>
 `;
 
-module.exports = { USER, gh, esc, fetchProfile, fetchCommits, analyze, card, svg, dayKey };
+module.exports = {
+  USER,
+  HAS_TOKEN,
+  gh,
+  esc,
+  fetchProfile,
+  fetchCommits,
+  fetchCalendar,
+  analyze,
+  card,
+  svg,
+  dayKey,
+};

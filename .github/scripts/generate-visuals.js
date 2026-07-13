@@ -7,7 +7,16 @@
 //   ticker.svg  live feed of the most recent real commits
 
 const fs = require("fs");
-const { esc, fetchProfile, fetchCommits, analyze, card, svg } = require("./lib");
+const {
+  esc,
+  HAS_TOKEN,
+  fetchProfile,
+  fetchCommits,
+  fetchCalendar,
+  analyze,
+  card,
+  svg,
+} = require("./lib");
 
 /**
  * SVG can't animate the text content of an element, so a count-up has to be
@@ -43,8 +52,8 @@ function renderStats(a) {
   const tiles = [
     { label: "CURRENT STREAK", value: a.current, unit: "days" },
     { label: "LONGEST STREAK", value: a.longest, unit: "days" },
-    { label: "TOTAL COMMITS", value: a.total, unit: "tracked" },
-    { label: "DAYS SHIPPED", value: a.activeDays, unit: "days" },
+    { label: "CONTRIBUTIONS", value: a.total, unit: "past year" },
+    { label: "DAYS SHIPPED", value: a.activeDays, unit: "days active" },
   ];
 
   const body = tiles
@@ -67,7 +76,11 @@ function renderStats(a) {
     })
     .join("");
 
-  return svg(W, H, card(W, H, "commit-engine — computed from real history") + body);
+  return svg(
+    W,
+    H,
+    card(W, H, "commit-engine — public + private, from GitHub's contribution graph") + body
+  );
 }
 
 function renderRhythm(a, commits) {
@@ -117,7 +130,7 @@ function renderRhythm(a, commits) {
   const pad = (n) => String(n).padStart(2, "0");
   const caption =
     `peak: ${a.busiestDay} @ ${pad(a.busiestHour)}:00 — ` +
-    `${a.total} commits mapped by hour of day`;
+    `${a.scanned} commits mapped by hour of day`;
 
   const footer = `
     <text x="${X0}" y="${Y0 + 7 * CH + 30}" class="dim" opacity="0">
@@ -194,10 +207,12 @@ function renderTicker(commits) {
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="${begin}s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="${y}" class="grn">+</text>
+      <text x="26" y="${y}" class="grn">${c.private ? "🔒" : "+"}</text>
       <text x="44" y="${y}" class="acc" font-size="11">${esc(when)}</text>
       <text x="90" y="${y}" class="txt" font-size="11">${esc(clip(c.repo, 16))}</text>
-      <text x="26" y="${y + 13}" class="dim" font-size="10">${esc(clip(c.message, 46))}</text>
+      <text x="26" y="${y + 13}" class="dim" font-size="10">${esc(
+        c.private ? "private work — details withheld" : clip(c.message, 46)
+      )}</text>
     </g>`;
     })
     .join("");
@@ -206,10 +221,26 @@ function renderTicker(commits) {
 }
 
 (async () => {
-  const { repos, langCount } = await fetchProfile();
+  // Without a token the calendar API is unreachable and private repos are
+  // invisible — which would silently publish public-only numbers as if they
+  // were the whole picture. Refuse rather than mislead.
+  if (!HAS_TOKEN) {
+    throw new Error(
+      "GITHUB_TOKEN required: the contribution calendar and private repos are " +
+        "unreachable without it, and public-only stats would understate reality."
+    );
+  }
+
+  const { repos, langCount, privateCount } = await fetchProfile();
+  const calendar = await fetchCalendar();
   const commits = await fetchCommits(repos);
   if (!commits.length) throw new Error("no commits found — refusing to write empty visuals");
-  const a = analyze(commits);
+
+  const a = analyze(commits, calendar);
+
+  if (calendar.total === 0) {
+    throw new Error("calendar returned 0 contributions — check token scopes (read:user)");
+  }
 
   fs.mkdirSync("assets", { recursive: true });
   fs.writeFileSync("assets/stats.svg", renderStats(a));
@@ -218,11 +249,14 @@ function renderTicker(commits) {
   fs.writeFileSync("assets/ticker.svg", renderTicker(commits));
 
   console.log("wrote 4 visuals", {
-    commits: a.total,
+    contributions: a.total,
     current: a.current,
     longest: a.longest,
     activeDays: a.activeDays,
     peak: `${a.busiestDay} @ ${a.busiestHour}:00`,
+    repos: repos.length,
+    private: privateCount,
+    commitsScanned: a.scanned,
   });
 })().catch((e) => {
   console.error(e);

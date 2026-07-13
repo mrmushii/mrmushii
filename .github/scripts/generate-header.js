@@ -29,7 +29,11 @@ function relativeTime(iso) {
 
 async function collect() {
   const user = await gh(`/users/${USER}`);
-  const repos = await gh(`/users/${USER}/repos?per_page=100&sort=pushed`);
+
+  // Authenticated listing so private repos are counted too.
+  const repos = await gh(
+    `/user/repos?per_page=100&affiliation=owner&visibility=all&sort=pushed`
+  );
   const own = repos.filter((r) => !r.fork);
   const stars = own.reduce((n, r) => n + r.stargazers_count, 0);
 
@@ -50,10 +54,12 @@ async function collect() {
 
   return {
     repos: own.length,
+    privateCount: own.filter((r) => r.private).length,
     stars,
     followers: user.followers,
     topLangs,
-    latestName: latest ? latest.name : "—",
+    // Never print the name of a private repo on a public page.
+    latestName: !latest ? "—" : latest.private ? "🔒 private repo" : latest.name,
     latestWhen: latest ? relativeTime(latest.pushed_at) : "—",
   };
 }
@@ -74,7 +80,9 @@ function render(d) {
     { kind: "cmd", text: "gh api /user --jq .stats" },
     {
       kind: "out",
-      text: `${d.repos} repos · ${d.stars} stars · ${d.followers} followers`,
+      text:
+        `${d.repos} repos (${d.privateCount} private) · ` +
+        `${d.stars} stars · ${d.followers} followers`,
     },
     { kind: "gap" },
     { kind: "cmd", text: "status", cursor: true },
@@ -164,6 +172,12 @@ ${body.join("\n")}
 }
 
 const fs = require("fs");
+
+if (!process.env.GITHUB_TOKEN) {
+  console.error("GITHUB_TOKEN required — private repos are invisible without it.");
+  process.exit(1);
+}
+
 collect()
   .then((d) => {
     fs.mkdirSync("assets", { recursive: true });

@@ -22,17 +22,19 @@ jobs:
         with:
           node-version: "20"
 
-      # GITHUB_TOKEN lifts the API limit from 60/hr to 5000/hr. The scripts fail
-      # hard on a rate limit rather than publishing undercounted stats.
+      # PROFILE_TOKEN is a PAT with `repo` + `read:user`. It is what makes private
+      # repos and the contribution calendar visible — the built-in GITHUB_TOKEN
+      # can only ever see public data, which understates the real numbers.
+      # The scripts fail hard rather than publish public-only stats.
       - name: Render header
         run: node .github/scripts/generate-header.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
 
       - name: Render stats, rhythm, languages, ticker
         run: node .github/scripts/generate-visuals.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
 
       - name: Commit if changed
         run: |

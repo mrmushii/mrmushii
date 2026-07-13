@@ -21,9 +21,10 @@
 
 > **None of the above is a widget.**
 > Every graphic on this page is an SVG rendered by [my own generator scripts](./.github/scripts/) —
-> the streaks are computed from my real commit history, the rhythm chart is my actual commits
-> bucketed by hour, and the feed is my latest pushes. [A GitHub Action](./.github/workflows/header.yml)
-> rebuilds all five daily. No `readme-stats`, no snake, no third-party service that can rot.
+> streaks straight from GitHub's contribution graph (**public *and* private work**), the rhythm
+> chart from my real commit timestamps bucketed by hour, and a live feed of my latest pushes.
+> [A GitHub Action](./.github/workflows/header.yml) rebuilds all five daily.
+> No `readme-stats`, no snake, no third-party service that can rot.
 > If you want this, you can't paste it in — you have to build it.
 
 ---
