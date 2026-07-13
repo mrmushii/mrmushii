@@ -220,6 +220,25 @@ function renderTicker(commits) {
   return svg(W, H, card(W, H, "git log --oneline — live") + rows);
 }
 
+/**
+ * GitHub proxies README images through Camo, which caches by URL. Because these
+ * SVGs live at a fixed path, a refreshed file keeps serving from cache and the
+ * profile shows yesterday's numbers indefinitely. Re-stamping a version query on
+ * each render gives Camo a new cache key, so the update actually surfaces.
+ */
+function bustImageCache() {
+  const v = Date.now().toString(36);
+  const before = fs.readFileSync("README.md", "utf8");
+  const after = before.replace(
+    /(\.\/assets\/[\w-]+\.svg)(\?v=[\w]+)?/g,
+    (_, path) => `${path}?v=${v}`
+  );
+  if (after !== before) {
+    fs.writeFileSync("README.md", after);
+    console.log(`cache-busted README image URLs -> ?v=${v}`);
+  }
+}
+
 (async () => {
   // Without a token the calendar API is unreachable and private repos are
   // invisible — which would silently publish public-only numbers as if they
@@ -247,6 +266,8 @@ function renderTicker(commits) {
   fs.writeFileSync("assets/rhythm.svg", renderRhythm(a, commits));
   fs.writeFileSync("assets/langs.svg", renderLangs(langCount));
   fs.writeFileSync("assets/ticker.svg", renderTicker(commits));
+
+  bustImageCache();
 
   console.log("wrote 4 visuals", {
     contributions: a.total,
