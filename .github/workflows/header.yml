@@ -1,4 +1,4 @@
-name: Animated Terminal Header
+name: Render Profile Visuals
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   push:
     branches: [main]
     paths:
-      - ".github/scripts/generate-header.js"
+      - ".github/scripts/**"
       - ".github/workflows/header.yml"
   workflow_dispatch:
 
@@ -22,8 +22,15 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Render header.svg
+      # GITHUB_TOKEN lifts the API limit from 60/hr to 5000/hr. The scripts fail
+      # hard on a rate limit rather than publishing undercounted stats.
+      - name: Render header
         run: node .github/scripts/generate-header.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render stats, rhythm, languages, ticker
+        run: node .github/scripts/generate-visuals.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -31,6 +38,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/header.svg
-          git diff --staged --quiet || git commit -m "chore: refresh animated header"
+          git add assets/
+          git diff --staged --quiet || git commit -m "chore: refresh profile visuals"
           git push
