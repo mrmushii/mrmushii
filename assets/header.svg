@@ -59,7 +59,7 @@
 
     <text x="34" y="186" class="o" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="3.04s" fill="freeze" />
-      JavaScript · TypeScript · Python · C++ · Next.js · FastAPI · MongoDB
+      TypeScript · JavaScript · C++ · Python · Next.js · FastAPI · MongoDB
     </text>
 
     <clipPath id="clip223">
@@ -76,7 +76,7 @@
 
     <text x="34" y="248" class="a" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="4.26s" fill="freeze" />
-      CodeGuardExtension — pushed 8d ago
+      🔒 private repo — pushed 16h ago
     </text>
 
     <clipPath id="clip285">
@@ -93,7 +93,7 @@
 
     <text x="34" y="310" class="o" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="5.48s" fill="freeze" />
-      62 repos · 5 stars · 19 followers
+      82 repos (20 private) · 9 stars · 19 followers
     </text>
 
     <clipPath id="clip347">
