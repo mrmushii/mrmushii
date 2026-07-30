@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="./assets/header.svg?v=ms5op3o8" alt="Mushfiqur Rahman — full-stack engineer" width="860" />
+<img src="./assets/header.svg?v=ms73tvhj" alt="Mushfiqur Rahman — full-stack engineer" width="860" />
 
 <br/><br/>
 
-<img src="./assets/stats.svg?v=ms5op3o8" alt="Commit engine — streak, longest streak, total commits, days shipped" width="860" />
+<img src="./assets/stats.svg?v=ms73tvhj" alt="Commit engine — streak, longest streak, total commits, days shipped" width="860" />
 
 <br/><br/>
 
-<img src="./assets/rhythm.svg?v=ms5op3o8" alt="Commits by hour of day and day of week" width="860" />
+<img src="./assets/rhythm.svg?v=ms73tvhj" alt="Commits by hour of day and day of week" width="860" />
 
 <br/><br/>
 
-<img src="./assets/langs.svg?v=ms5op3o8" alt="Language distribution" width="420" />
-<img src="./assets/ticker.svg?v=ms5op3o8" alt="Live commit feed" width="420" />
+<img src="./assets/langs.svg?v=ms73tvhj" alt="Language distribution" width="420" />
+<img src="./assets/ticker.svg?v=ms73tvhj" alt="Live commit feed" width="420" />
 
 <br/><br/>
 
