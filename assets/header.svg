@@ -76,7 +76,7 @@
 
     <text x="34" y="248" class="a" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="4.26s" fill="freeze" />
-      tw_project — pushed 5m ago
+      tw_project — pushed 3h ago
     </text>
 
     <clipPath id="clip285">
@@ -93,7 +93,7 @@
 
     <text x="34" y="310" class="o" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="5.48s" fill="freeze" />
-      85 repos (21 private) · 9 stars · 19 followers
+      85 repos (21 private) · 9 stars · 20 followers
     </text>
 
     <clipPath id="clip347">
