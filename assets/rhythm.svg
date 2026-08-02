@@ -582,7 +582,7 @@
     </rect>
     <rect x="614" y="201" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.70" dur="0.5s" begin="0.77s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.65" dur="0.5s" begin="0.77s" fill="freeze"/>
     </rect>
     <rect x="644" y="201" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -634,7 +634,7 @@
     </rect>
     <rect x="284" y="226" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.24" dur="0.5s" begin="0.68s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.28" dur="0.5s" begin="0.68s" fill="freeze"/>
     </rect>
     <rect x="314" y="226" width="25" height="20" rx="3"
           fill="#161b22" opacity="0">

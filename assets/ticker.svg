@@ -33,30 +33,30 @@
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.35s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="74" class="grn">+</text>
-      <text x="44" y="74" class="acc" font-size="11">07-31</text>
-      <text x="90" y="74" class="txt" font-size="11">tw_project</text>
-      <text x="26" y="87" class="dim" font-size="10">Fix github-notify on the deployed instance: s…</text>
+      <text x="26" y="74" class="grn">🔒</text>
+      <text x="44" y="74" class="acc" font-size="11">08-01</text>
+      <text x="90" y="74" class="txt" font-size="11">private repo</text>
+      <text x="26" y="87" class="dim" font-size="10">private work — details withheld</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.45s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.45s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="104" class="grn">+</text>
-      <text x="44" y="104" class="acc" font-size="11">07-30</text>
-      <text x="90" y="104" class="txt" font-size="11">tw_project</text>
-      <text x="26" y="117" class="dim" font-size="10">Add presentation figures for the comparison s…</text>
+      <text x="26" y="104" class="grn">🔒</text>
+      <text x="44" y="104" class="acc" font-size="11">08-01</text>
+      <text x="90" y="104" class="txt" font-size="11">private repo</text>
+      <text x="26" y="117" class="dim" font-size="10">private work — details withheld</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.55s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.55s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="134" class="grn">+</text>
-      <text x="44" y="134" class="acc" font-size="11">07-30</text>
-      <text x="90" y="134" class="txt" font-size="11">tw_project</text>
-      <text x="26" y="147" class="dim" font-size="10">Require an explicit delivery target on every …</text>
+      <text x="26" y="134" class="grn">🔒</text>
+      <text x="44" y="134" class="acc" font-size="11">08-01</text>
+      <text x="90" y="134" class="txt" font-size="11">private repo</text>
+      <text x="26" y="147" class="dim" font-size="10">private work — details withheld</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.65s" fill="freeze"/>
@@ -64,9 +64,9 @@
                         dur="0.5s" begin="0.65s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
       <text x="26" y="164" class="grn">+</text>
-      <text x="44" y="164" class="acc" font-size="11">07-30</text>
+      <text x="44" y="164" class="acc" font-size="11">07-31</text>
       <text x="90" y="164" class="txt" font-size="11">tw_project</text>
-      <text x="26" y="177" class="dim" font-size="10">Stop the skill retrying an absolute path, and…</text>
+      <text x="26" y="177" class="dim" font-size="10">Fix github-notify on the deployed instance: s…</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.75s" fill="freeze"/>
@@ -76,7 +76,7 @@
       <text x="26" y="194" class="grn">+</text>
       <text x="44" y="194" class="acc" font-size="11">07-30</text>
       <text x="90" y="194" class="txt" font-size="11">tw_project</text>
-      <text x="26" y="207" class="dim" font-size="10">Fix the github-notify script path for the con…</text>
+      <text x="26" y="207" class="dim" font-size="10">Add presentation figures for the comparison s…</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.85s" fill="freeze"/>
@@ -86,7 +86,7 @@
       <text x="26" y="224" class="grn">+</text>
       <text x="44" y="224" class="acc" font-size="11">07-30</text>
       <text x="90" y="224" class="txt" font-size="11">tw_project</text>
-      <text x="26" y="237" class="dim" font-size="10">Add Railway deployment config and a deploymen…</text>
+      <text x="26" y="237" class="dim" font-size="10">Require an explicit delivery target on every …</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.95s" fill="freeze"/>
@@ -96,6 +96,6 @@
       <text x="26" y="254" class="grn">+</text>
       <text x="44" y="254" class="acc" font-size="11">07-30</text>
       <text x="90" y="254" class="txt" font-size="11">tw_project</text>
-      <text x="26" y="267" class="dim" font-size="10">Cut plugin load and drop the health check to …</text>
+      <text x="26" y="267" class="dim" font-size="10">Stop the skill retrying an absolute path, and…</text>
     </g>
 </svg>
