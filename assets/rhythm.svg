@@ -545,8 +545,8 @@
       <animate attributeName="opacity" from="0" to="0.24" dur="0.5s" begin="0.65s" fill="freeze"/>
     </rect>
     <rect x="344" y="201" width="25" height="20" rx="3"
-          fill="#161b22" opacity="0">
-      <animate attributeName="opacity" from="0" to="1.00" dur="0.5s" begin="0.66s" fill="freeze"/>
+          fill="url(#accent)" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.24" dur="0.5s" begin="0.66s" fill="freeze"/>
     </rect>
     <rect x="374" y="201" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -558,7 +558,7 @@
     </rect>
     <rect x="434" y="201" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.24" dur="0.5s" begin="0.69s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.25" dur="0.5s" begin="0.69s" fill="freeze"/>
     </rect>
     <rect x="464" y="201" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -566,7 +566,7 @@
     </rect>
     <rect x="494" y="201" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.24" dur="0.5s" begin="0.72s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.25" dur="0.5s" begin="0.72s" fill="freeze"/>
     </rect>
     <rect x="524" y="201" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -662,7 +662,7 @@
     </rect>
     <rect x="494" y="226" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.52" dur="0.5s" begin="0.77s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.47" dur="0.5s" begin="0.77s" fill="freeze"/>
     </rect>
     <rect x="524" y="226" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
