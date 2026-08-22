@@ -546,7 +546,7 @@
     </rect>
     <rect x="344" y="201" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.24" dur="0.5s" begin="0.66s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.27" dur="0.5s" begin="0.66s" fill="freeze"/>
     </rect>
     <rect x="374" y="201" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -702,6 +702,6 @@
     </rect>
     <text x="74" y="281" class="dim" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.6s" fill="freeze"/>
-      peak: Thu @ 15:00 — 745 commits mapped by hour of day
+      peak: Thu @ 15:00 — 747 commits mapped by hour of day
     </text>
 </svg>
