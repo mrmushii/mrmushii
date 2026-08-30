@@ -282,11 +282,11 @@
     </rect>
     <rect x="524" y="126" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.30" dur="0.5s" begin="0.58s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.28" dur="0.5s" begin="0.58s" fill="freeze"/>
     </rect>
     <rect x="554" y="126" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.31" dur="0.5s" begin="0.59s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.25" dur="0.5s" begin="0.59s" fill="freeze"/>
     </rect>
     <rect x="584" y="126" width="25" height="20" rx="3"
           fill="#161b22" opacity="0">
@@ -382,7 +382,7 @@
     </rect>
     <rect x="554" y="151" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.27" dur="0.5s" begin="0.64s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.25" dur="0.5s" begin="0.64s" fill="freeze"/>
     </rect>
     <rect x="584" y="151" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -562,7 +562,7 @@
     </rect>
     <rect x="464" y="201" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.25" dur="0.5s" begin="0.71s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.27" dur="0.5s" begin="0.71s" fill="freeze"/>
     </rect>
     <rect x="494" y="201" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -642,7 +642,7 @@
     </rect>
     <rect x="344" y="226" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.27" dur="0.5s" begin="0.71s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.34" dur="0.5s" begin="0.71s" fill="freeze"/>
     </rect>
     <rect x="374" y="226" width="25" height="20" rx="3"
           fill="#161b22" opacity="0">
@@ -654,11 +654,11 @@
     </rect>
     <rect x="434" y="226" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.28" dur="0.5s" begin="0.74s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.33" dur="0.5s" begin="0.74s" fill="freeze"/>
     </rect>
     <rect x="464" y="226" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.34" dur="0.5s" begin="0.76s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.39" dur="0.5s" begin="0.76s" fill="freeze"/>
     </rect>
     <rect x="494" y="226" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -702,6 +702,6 @@
     </rect>
     <text x="74" y="281" class="dim" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.6s" fill="freeze"/>
-      peak: Thu @ 15:00 — 755 commits mapped by hour of day
+      peak: Thu @ 15:00 — 761 commits mapped by hour of day
     </text>
 </svg>
