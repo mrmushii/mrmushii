@@ -33,48 +33,48 @@
             stroke-linecap="round" transform="rotate(-90 130 170)"
             stroke-dasharray="552.9" stroke-dashoffset="552.9">
       <animate attributeName="stroke-dashoffset" from="552.9"
-               to="306.2" dur="1.2s" begin="0.35s"
+               to="297.1" dur="1.2s" begin="0.35s"
                fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"
-               values="552.9;306.2"/>
+               values="552.9;297.1"/>
     </circle>
     <circle cx="130" cy="170" r="73" fill="none" stroke="#21262d" stroke-width="9"/>
     <circle cx="130" cy="170" r="73" fill="none" stroke="#818cf8" stroke-width="9"
             stroke-linecap="round" transform="rotate(-90 130 170)"
             stroke-dasharray="458.7" stroke-dashoffset="458.7">
       <animate attributeName="stroke-dashoffset" from="458.7"
-               to="296.4" dur="1.2s" begin="0.48s"
+               to="301.2" dur="1.2s" begin="0.48s"
                fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"
-               values="458.7;296.4"/>
+               values="458.7;301.2"/>
     </circle>
     <circle cx="130" cy="170" r="58" fill="none" stroke="#21262d" stroke-width="9"/>
     <circle cx="130" cy="170" r="58" fill="none" stroke="#3fb950" stroke-width="9"
             stroke-linecap="round" transform="rotate(-90 130 170)"
             stroke-dasharray="364.4" stroke-dashoffset="364.4">
       <animate attributeName="stroke-dashoffset" from="364.4"
-               to="319.6" dur="1.2s" begin="0.61s"
+               to="320.9" dur="1.2s" begin="0.61s"
                fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"
-               values="364.4;319.6"/>
+               values="364.4;320.9"/>
     </circle>
     <circle cx="130" cy="170" r="43" fill="none" stroke="#21262d" stroke-width="9"/>
     <circle cx="130" cy="170" r="43" fill="none" stroke="#f0883e" stroke-width="9"
             stroke-linecap="round" transform="rotate(-90 130 170)"
             stroke-dasharray="270.2" stroke-dashoffset="270.2">
       <animate attributeName="stroke-dashoffset" from="270.2"
-               to="249.4" dur="1.2s" begin="0.74s"
+               to="250.0" dur="1.2s" begin="0.74s"
                fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"
-               values="270.2;249.4"/>
+               values="270.2;250.0"/>
     </circle>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.35s" fill="freeze"/>
       <rect x="248" y="74" width="10" height="10" rx="2" fill="#38bdf8"/>
       <text x="266" y="84" class="txt">TypeScript</text>
-      <text x="390" y="84" class="dim" text-anchor="end">45%</text>
+      <text x="390" y="84" class="dim" text-anchor="end">46%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.48s" fill="freeze"/>
       <rect x="248" y="104" width="10" height="10" rx="2" fill="#818cf8"/>
       <text x="266" y="114" class="txt">JavaScript</text>
-      <text x="390" y="114" class="dim" text-anchor="end">35%</text>
+      <text x="390" y="114" class="dim" text-anchor="end">34%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.61s" fill="freeze"/>
@@ -86,6 +86,6 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.74s" fill="freeze"/>
       <rect x="248" y="164" width="10" height="10" rx="2" fill="#f0883e"/>
       <text x="266" y="174" class="txt">C++</text>
-      <text x="390" y="174" class="dim" text-anchor="end">8%</text>
+      <text x="390" y="174" class="dim" text-anchor="end">7%</text>
     </g>
 </svg>
