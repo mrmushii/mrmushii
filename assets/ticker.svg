@@ -33,50 +33,50 @@
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.35s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="74" class="grn">+</text>
-      <text x="44" y="74" class="acc" font-size="11">08-30</text>
-      <text x="90" y="74" class="txt" font-size="11">lsh26-t037-po8</text>
-      <text x="26" y="87" class="dim" font-size="10">updated</text>
+      <text x="26" y="74" class="grn">🔒</text>
+      <text x="44" y="74" class="acc" font-size="11">08-31</text>
+      <text x="90" y="74" class="txt" font-size="11">private repo</text>
+      <text x="26" y="87" class="dim" font-size="10">private work — details withheld</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.45s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.45s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="104" class="grn">+</text>
-      <text x="44" y="104" class="acc" font-size="11">08-30</text>
-      <text x="90" y="104" class="txt" font-size="11">lsh26-t037-po7</text>
-      <text x="26" y="117" class="dim" font-size="10">updated</text>
+      <text x="26" y="104" class="grn">🔒</text>
+      <text x="44" y="104" class="acc" font-size="11">08-31</text>
+      <text x="90" y="104" class="txt" font-size="11">private repo</text>
+      <text x="26" y="117" class="dim" font-size="10">private work — details withheld</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.55s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.55s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="134" class="grn">+</text>
-      <text x="44" y="134" class="acc" font-size="11">08-30</text>
-      <text x="90" y="134" class="txt" font-size="11">lsh26-t037-po8</text>
-      <text x="26" y="147" class="dim" font-size="10">updated the package.json</text>
+      <text x="26" y="134" class="grn">🔒</text>
+      <text x="44" y="134" class="acc" font-size="11">08-31</text>
+      <text x="90" y="134" class="txt" font-size="11">private repo</text>
+      <text x="26" y="147" class="dim" font-size="10">private work — details withheld</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.65s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.65s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="164" class="grn">+</text>
-      <text x="44" y="164" class="acc" font-size="11">08-30</text>
-      <text x="90" y="164" class="txt" font-size="11">lsh26-t037-po7</text>
-      <text x="26" y="177" class="dim" font-size="10">updated evaluation.json file</text>
+      <text x="26" y="164" class="grn">🔒</text>
+      <text x="44" y="164" class="acc" font-size="11">08-31</text>
+      <text x="90" y="164" class="txt" font-size="11">private repo</text>
+      <text x="26" y="177" class="dim" font-size="10">private work — details withheld</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.75s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.75s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="194" class="grn">+</text>
-      <text x="44" y="194" class="acc" font-size="11">08-30</text>
-      <text x="90" y="194" class="txt" font-size="11">lsh26-t037-po8</text>
-      <text x="26" y="207" class="dim" font-size="10">updated the evaluation</text>
+      <text x="26" y="194" class="grn">🔒</text>
+      <text x="44" y="194" class="acc" font-size="11">08-31</text>
+      <text x="90" y="194" class="txt" font-size="11">private repo</text>
+      <text x="26" y="207" class="dim" font-size="10">private work — details withheld</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.85s" fill="freeze"/>
@@ -85,8 +85,8 @@
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
       <text x="26" y="224" class="grn">+</text>
       <text x="44" y="224" class="acc" font-size="11">08-30</text>
-      <text x="90" y="224" class="txt" font-size="11">lsh26-t037-po7</text>
-      <text x="26" y="237" class="dim" font-size="10"> added manifest.json</text>
+      <text x="90" y="224" class="txt" font-size="11">lsh26-t037-po8</text>
+      <text x="26" y="237" class="dim" font-size="10">updated</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.95s" fill="freeze"/>
@@ -96,6 +96,6 @@
       <text x="26" y="254" class="grn">+</text>
       <text x="44" y="254" class="acc" font-size="11">08-30</text>
       <text x="90" y="254" class="txt" font-size="11">lsh26-t037-po7</text>
-      <text x="26" y="267" class="dim" font-size="10">added updated readme</text>
+      <text x="26" y="267" class="dim" font-size="10">updated</text>
     </g>
 </svg>
