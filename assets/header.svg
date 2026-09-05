@@ -76,7 +76,7 @@
 
     <text x="34" y="248" class="a" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="4.26s" fill="freeze" />
-      🔒 private repo — pushed 1d ago
+      🔒 private repo — pushed 30m ago
     </text>
 
     <clipPath id="clip285">
@@ -93,7 +93,7 @@
 
     <text x="34" y="310" class="o" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.28s" begin="5.48s" fill="freeze" />
-      91 repos (24 private) · 9 stars · 19 followers
+      92 repos (25 private) · 9 stars · 19 followers
     </text>
 
     <clipPath id="clip347">
