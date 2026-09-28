@@ -58,7 +58,7 @@
     </rect>
     <rect x="284" y="76" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.56" dur="0.5s" begin="0.38s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.66" dur="0.5s" begin="0.38s" fill="freeze"/>
     </rect>
     <rect x="314" y="76" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -90,15 +90,15 @@
     </rect>
     <rect x="524" y="76" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.55" dur="0.5s" begin="0.48s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.45" dur="0.5s" begin="0.48s" fill="freeze"/>
     </rect>
     <rect x="554" y="76" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.64" dur="0.5s" begin="0.49s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.53" dur="0.5s" begin="0.49s" fill="freeze"/>
     </rect>
     <rect x="584" y="76" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.50" dur="0.5s" begin="0.50s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.45" dur="0.5s" begin="0.50s" fill="freeze"/>
     </rect>
     <rect x="614" y="76" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -146,15 +146,15 @@
     </rect>
     <rect x="224" y="101" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.34" dur="0.5s" begin="0.41s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.39" dur="0.5s" begin="0.41s" fill="freeze"/>
     </rect>
     <rect x="254" y="101" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.25" dur="0.5s" begin="0.42s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.50" dur="0.5s" begin="0.42s" fill="freeze"/>
     </rect>
     <rect x="284" y="101" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.30" dur="0.5s" begin="0.43s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.36" dur="0.5s" begin="0.43s" fill="freeze"/>
     </rect>
     <rect x="314" y="101" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -450,11 +450,11 @@
     </rect>
     <rect x="344" y="176" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.41" dur="0.5s" begin="0.61s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.38" dur="0.5s" begin="0.61s" fill="freeze"/>
     </rect>
     <rect x="374" y="176" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.30" dur="0.5s" begin="0.62s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.25" dur="0.5s" begin="0.62s" fill="freeze"/>
     </rect>
     <rect x="404" y="176" width="25" height="20" rx="3"
           fill="#161b22" opacity="0">
@@ -482,11 +482,11 @@
     </rect>
     <rect x="584" y="176" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.53" dur="0.5s" begin="0.70s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.49" dur="0.5s" begin="0.70s" fill="freeze"/>
     </rect>
     <rect x="614" y="176" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.50" dur="0.5s" begin="0.72s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.42" dur="0.5s" begin="0.72s" fill="freeze"/>
     </rect>
     <rect x="644" y="176" width="25" height="20" rx="3"
           fill="#161b22" opacity="0">
