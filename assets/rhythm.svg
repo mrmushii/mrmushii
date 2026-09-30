@@ -270,7 +270,7 @@
     </rect>
     <rect x="434" y="126" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.34" dur="0.5s" begin="0.54s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.38" dur="0.5s" begin="0.54s" fill="freeze"/>
     </rect>
     <rect x="464" y="126" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
@@ -278,15 +278,15 @@
     </rect>
     <rect x="494" y="126" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.40" dur="0.5s" begin="0.57s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.47" dur="0.5s" begin="0.57s" fill="freeze"/>
     </rect>
     <rect x="524" y="126" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.29" dur="0.5s" begin="0.58s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.31" dur="0.5s" begin="0.58s" fill="freeze"/>
     </rect>
     <rect x="554" y="126" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.26" dur="0.5s" begin="0.59s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.31" dur="0.5s" begin="0.59s" fill="freeze"/>
     </rect>
     <rect x="584" y="126" width="25" height="20" rx="3"
           fill="#161b22" opacity="0">
@@ -482,11 +482,11 @@
     </rect>
     <rect x="584" y="176" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.50" dur="0.5s" begin="0.70s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.43" dur="0.5s" begin="0.70s" fill="freeze"/>
     </rect>
     <rect x="614" y="176" width="25" height="20" rx="3"
           fill="url(#accent)" opacity="0">
-      <animate attributeName="opacity" from="0" to="0.45" dur="0.5s" begin="0.72s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="0.34" dur="0.5s" begin="0.72s" fill="freeze"/>
     </rect>
     <rect x="644" y="176" width="25" height="20" rx="3"
           fill="#161b22" opacity="0">
