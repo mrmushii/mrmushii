@@ -33,40 +33,40 @@
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.35s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="74" class="grn">🔒</text>
-      <text x="44" y="74" class="acc" font-size="11">10-19</text>
-      <text x="90" y="74" class="txt" font-size="11">private repo</text>
-      <text x="26" y="87" class="dim" font-size="10">private work — details withheld</text>
+      <text x="26" y="74" class="grn">+</text>
+      <text x="44" y="74" class="acc" font-size="11">10-20</text>
+      <text x="90" y="74" class="txt" font-size="11">guardian-agent</text>
+      <text x="26" y="87" class="dim" font-size="10">Close simulated positions in assets removed f…</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.45s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.45s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="104" class="grn">🔒</text>
-      <text x="44" y="104" class="acc" font-size="11">10-19</text>
-      <text x="90" y="104" class="txt" font-size="11">private repo</text>
-      <text x="26" y="117" class="dim" font-size="10">private work — details withheld</text>
+      <text x="26" y="104" class="grn">+</text>
+      <text x="44" y="104" class="acc" font-size="11">10-20</text>
+      <text x="90" y="104" class="txt" font-size="11">guardian-agent</text>
+      <text x="26" y="117" class="dim" font-size="10">Simpler UX: ETH naming, calmer overview, mobi…</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.55s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.55s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="134" class="grn">🔒</text>
-      <text x="44" y="134" class="acc" font-size="11">10-19</text>
-      <text x="90" y="134" class="txt" font-size="11">private repo</text>
-      <text x="26" y="147" class="dim" font-size="10">private work — details withheld</text>
+      <text x="26" y="134" class="grn">+</text>
+      <text x="44" y="134" class="acc" font-size="11">10-20</text>
+      <text x="90" y="134" class="txt" font-size="11">guardian-agent</text>
+      <text x="26" y="147" class="dim" font-size="10">AI: behaviour eval (15 scenarios x 2 models),…</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.65s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.65s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="164" class="grn">🔒</text>
-      <text x="44" y="164" class="acc" font-size="11">10-19</text>
-      <text x="90" y="164" class="txt" font-size="11">private repo</text>
-      <text x="26" y="177" class="dim" font-size="10">private work — details withheld</text>
+      <text x="26" y="164" class="grn">+</text>
+      <text x="44" y="164" class="acc" font-size="11">10-20</text>
+      <text x="90" y="164" class="txt" font-size="11">guardian-agent</text>
+      <text x="26" y="177" class="dim" font-size="10">Redesign login: split layout with plain-langu…</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.75s" fill="freeze"/>
@@ -74,7 +74,7 @@
                         dur="0.5s" begin="0.75s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
       <text x="26" y="194" class="grn">🔒</text>
-      <text x="44" y="194" class="acc" font-size="11">10-18</text>
+      <text x="44" y="194" class="acc" font-size="11">10-20</text>
       <text x="90" y="194" class="txt" font-size="11">private repo</text>
       <text x="26" y="207" class="dim" font-size="10">private work — details withheld</text>
     </g>
@@ -83,10 +83,10 @@
       <animateTransform attributeName="transform" type="translate" from="-14 0" to="0 0"
                         dur="0.5s" begin="0.85s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
-      <text x="26" y="224" class="grn">🔒</text>
-      <text x="44" y="224" class="acc" font-size="11">10-18</text>
-      <text x="90" y="224" class="txt" font-size="11">private repo</text>
-      <text x="26" y="237" class="dim" font-size="10">private work — details withheld</text>
+      <text x="26" y="224" class="grn">+</text>
+      <text x="44" y="224" class="acc" font-size="11">10-20</text>
+      <text x="90" y="224" class="txt" font-size="11">guardian-agent</text>
+      <text x="26" y="237" class="dim" font-size="10">Add Security Center, simple/detailed view, an…</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.95s" fill="freeze"/>
@@ -94,7 +94,7 @@
                         dur="0.5s" begin="0.95s" fill="freeze"
                         calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
       <text x="26" y="254" class="grn">🔒</text>
-      <text x="44" y="254" class="acc" font-size="11">10-18</text>
+      <text x="44" y="254" class="acc" font-size="11">10-19</text>
       <text x="90" y="254" class="txt" font-size="11">private repo</text>
       <text x="26" y="267" class="dim" font-size="10">private work — details withheld</text>
     </g>
