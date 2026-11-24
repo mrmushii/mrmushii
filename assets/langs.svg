@@ -33,9 +33,9 @@
             stroke-linecap="round" transform="rotate(-90 130 170)"
             stroke-dasharray="552.9" stroke-dashoffset="552.9">
       <animate attributeName="stroke-dashoffset" from="552.9"
-               to="309.6" dur="1.2s" begin="0.35s"
+               to="302.3" dur="1.2s" begin="0.35s"
                fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"
-               values="552.9;309.6"/>
+               values="552.9;302.3"/>
     </circle>
     <circle cx="130" cy="170" r="73" fill="none" stroke="#21262d" stroke-width="9"/>
     <circle cx="130" cy="170" r="73" fill="none" stroke="#818cf8" stroke-width="9"
@@ -51,9 +51,9 @@
             stroke-linecap="round" transform="rotate(-90 130 170)"
             stroke-dasharray="364.4" stroke-dashoffset="364.4">
       <animate attributeName="stroke-dashoffset" from="364.4"
-               to="306.1" dur="1.2s" begin="0.61s"
+               to="311.0" dur="1.2s" begin="0.61s"
                fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"
-               values="364.4;306.1"/>
+               values="364.4;311.0"/>
     </circle>
     <circle cx="130" cy="170" r="43" fill="none" stroke="#21262d" stroke-width="9"/>
     <circle cx="130" cy="170" r="43" fill="none" stroke="#f0883e" stroke-width="9"
@@ -68,7 +68,7 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.35s" fill="freeze"/>
       <rect x="248" y="74" width="10" height="10" rx="2" fill="#38bdf8"/>
       <text x="266" y="84" class="txt">TypeScript</text>
-      <text x="390" y="84" class="dim" text-anchor="end">44%</text>
+      <text x="390" y="84" class="dim" text-anchor="end">45%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.48s" fill="freeze"/>
@@ -80,7 +80,7 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.61s" fill="freeze"/>
       <rect x="248" y="134" width="10" height="10" rx="2" fill="#3fb950"/>
       <text x="266" y="144" class="txt">Python</text>
-      <text x="390" y="144" class="dim" text-anchor="end">16%</text>
+      <text x="390" y="144" class="dim" text-anchor="end">15%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.74s" fill="freeze"/>
